@@ -1,0 +1,46 @@
+:root {
+    /*Colores*/
+    --just-white: #ffffff;
+    /*Fuentes*/
+    --fontDM: 'DM Sans', sans-serif;
+    --fontInter: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--fontDM);
+}
+
+header {
+    background: url('../assets/fono_playa.png');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 200px;
+    text-align: center;
+}
+
+header img {
+    width: 160px;
+    height: 100px;
+    margin-top: 10px;
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-container-title h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
